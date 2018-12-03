@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="src/assets/favicon.ico"/>
+    <title>Pusheen</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.css">
+</head>
+<style>
+    html {
+        overflow-y: auto;
+    }
+</style>
+<body>
+<div class="hero is-fullheight">
+    <div id="app"></div>
+</div>
+<script src="/dist/build.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107852265-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-107852265-2');
+</script>
+</body>
+</html>
